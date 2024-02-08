@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AECA7C832B733FC20051459B /* AppBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECA7C822B733FC20051459B /* AppBar.swift */; };
+		AECA7C862B73792B0051459B /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECA7C842B73792B0051459B /* TopViewController.swift */; };
+		AECA7C872B73792B0051459B /* TopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AECA7C852B73792B0051459B /* TopViewController.xib */; };
+		AECA7C892B737F4C0051459B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECA7C882B737F4C0051459B /* Utility.swift */; };
+		AECA7C8B2B7385B50051459B /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECA7C8A2B7385B50051459B /* CustomTabBarController.swift */; };
 		AED319F32B7255BA004A4364 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED319F22B7255BA004A4364 /* AppDelegate.swift */; };
 		AED319F52B7255BA004A4364 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED319F42B7255BA004A4364 /* SceneDelegate.swift */; };
 		AED319F72B7255BA004A4364 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED319F62B7255BA004A4364 /* ViewController.swift */; };
 		AED319FA2B7255BA004A4364 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED319F82B7255BA004A4364 /* Main.storyboard */; };
 		AED319FC2B7255BD004A4364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED319FB2B7255BD004A4364 /* Assets.xcassets */; };
 		AED319FF2B7255BD004A4364 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED319FD2B7255BD004A4364 /* LaunchScreen.storyboard */; };
+		AED31A072B725B0E004A4364 /* HomeTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED31A062B725B0E004A4364 /* HomeTabBarViewController.swift */; };
+		AED31A092B725B23004A4364 /* UserTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED31A082B725B23004A4364 /* UserTabBarViewController.swift */; };
+		AED31A0B2B725B3E004A4364 /* QRCodeTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED31A0A2B725B3E004A4364 /* QRCodeTabBarViewController.swift */; };
+		AED31A0D2B725B78004A4364 /* ListTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED31A0C2B725B78004A4364 /* ListTabBarViewController.swift */; };
+		AED31A0F2B725B99004A4364 /* SettingTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED31A0E2B725B99004A4364 /* SettingTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AECA7C822B733FC20051459B /* AppBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBar.swift; sourceTree = "<group>"; };
+		AECA7C842B73792B0051459B /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		AECA7C852B73792B0051459B /* TopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopViewController.xib; sourceTree = "<group>"; };
+		AECA7C882B737F4C0051459B /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		AECA7C8A2B7385B50051459B /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		AED319EF2B7255B9004A4364 /* FoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AED319F22B7255BA004A4364 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AED319F42B7255BA004A4364 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,11 @@
 		AED319FB2B7255BD004A4364 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AED319FE2B7255BD004A4364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AED31A002B7255BD004A4364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AED31A062B725B0E004A4364 /* HomeTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarViewController.swift; sourceTree = "<group>"; };
+		AED31A082B725B23004A4364 /* UserTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTabBarViewController.swift; sourceTree = "<group>"; };
+		AED31A0A2B725B3E004A4364 /* QRCodeTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeTabBarViewController.swift; sourceTree = "<group>"; };
+		AED31A0C2B725B78004A4364 /* ListTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTabBarViewController.swift; sourceTree = "<group>"; };
+		AED31A0E2B725B99004A4364 /* SettingTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +57,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AECA7C8C2B738B9F0051459B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AECA7C842B73792B0051459B /* TopViewController.swift */,
+				AECA7C822B733FC20051459B /* AppBar.swift */,
+				AECA7C882B737F4C0051459B /* Utility.swift */,
+				AECA7C8A2B7385B50051459B /* CustomTabBarController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AECA7C8D2B738BB10051459B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AED319FD2B7255BD004A4364 /* LaunchScreen.storyboard */,
+				AED319F82B7255BA004A4364 /* Main.storyboard */,
+				AECA7C852B73792B0051459B /* TopViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AECA7C8E2B738BB90051459B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AED31A062B725B0E004A4364 /* HomeTabBarViewController.swift */,
+				AED31A082B725B23004A4364 /* UserTabBarViewController.swift */,
+				AED31A0A2B725B3E004A4364 /* QRCodeTabBarViewController.swift */,
+				AED31A0C2B725B78004A4364 /* ListTabBarViewController.swift */,
+				AED31A0E2B725B99004A4364 /* SettingTabBarViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		AED319E62B7255B9004A4364 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +109,13 @@
 		AED319F12B7255B9004A4364 /* FoodApp */ = {
 			isa = PBXGroup;
 			children = (
+				AECA7C8C2B738B9F0051459B /* Model */,
+				AECA7C8D2B738BB10051459B /* View */,
+				AECA7C8E2B738BB90051459B /* Controller */,
 				AED319F22B7255BA004A4364 /* AppDelegate.swift */,
 				AED319F42B7255BA004A4364 /* SceneDelegate.swift */,
 				AED319F62B7255BA004A4364 /* ViewController.swift */,
-				AED319F82B7255BA004A4364 /* Main.storyboard */,
 				AED319FB2B7255BD004A4364 /* Assets.xcassets */,
-				AED319FD2B7255BD004A4364 /* LaunchScreen.storyboard */,
 				AED31A002B7255BD004A4364 /* Info.plist */,
 			);
 			path = FoodApp;
@@ -125,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AECA7C872B73792B0051459B /* TopViewController.xib in Resources */,
 				AED319FF2B7255BD004A4364 /* LaunchScreen.storyboard in Resources */,
 				AED319FC2B7255BD004A4364 /* Assets.xcassets in Resources */,
 				AED319FA2B7255BA004A4364 /* Main.storyboard in Resources */,
@@ -139,8 +194,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				AED319F72B7255BA004A4364 /* ViewController.swift in Sources */,
+				AED31A092B725B23004A4364 /* UserTabBarViewController.swift in Sources */,
+				AECA7C8B2B7385B50051459B /* CustomTabBarController.swift in Sources */,
+				AECA7C832B733FC20051459B /* AppBar.swift in Sources */,
+				AECA7C892B737F4C0051459B /* Utility.swift in Sources */,
+				AED31A0B2B725B3E004A4364 /* QRCodeTabBarViewController.swift in Sources */,
+				AECA7C862B73792B0051459B /* TopViewController.swift in Sources */,
+				AED31A0D2B725B78004A4364 /* ListTabBarViewController.swift in Sources */,
 				AED319F32B7255BA004A4364 /* AppDelegate.swift in Sources */,
 				AED319F52B7255BA004A4364 /* SceneDelegate.swift in Sources */,
+				AED31A072B725B0E004A4364 /* HomeTabBarViewController.swift in Sources */,
+				AED31A0F2B725B99004A4364 /* SettingTabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +356,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7GQAYT5DM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FoodApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -319,6 +384,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7GQAYT5DM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FoodApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
