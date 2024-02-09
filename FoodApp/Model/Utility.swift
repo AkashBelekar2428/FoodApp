@@ -7,9 +7,11 @@
 
 import UIKit
 
-class Utility :UIViewController{
+class Utility{
     
-    static func addTopView(viewName:UIView){
+    static let shared = Utility()
+    
+    func addTopView(viewName:UIView){
         let addTopView = TopViewController(frame: CGRect(x: 0, y: 0, width: viewName.frame.width, height: viewName.frame.height))
         viewName.addSubview(addTopView)
     }

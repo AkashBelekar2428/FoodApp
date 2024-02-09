@@ -13,6 +13,6 @@ class SettingTabBarViewController : UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        Utility.addTopView(viewName: topView)
+        Utility.shared.addTopView(viewName: topView)
     }
 }

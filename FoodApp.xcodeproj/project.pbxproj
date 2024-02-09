@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AECA7C832B733FC20051459B /* AppBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECA7C822B733FC20051459B /* AppBar.swift */; };
+		AE99A8072B75F32C001D6D6B /* SynchronisierungViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE99A8062B75F32C001D6D6B /* SynchronisierungViewController.swift */; };
 		AECA7C862B73792B0051459B /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECA7C842B73792B0051459B /* TopViewController.swift */; };
 		AECA7C872B73792B0051459B /* TopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AECA7C852B73792B0051459B /* TopViewController.xib */; };
 		AECA7C892B737F4C0051459B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECA7C882B737F4C0051459B /* Utility.swift */; };
-		AECA7C8B2B7385B50051459B /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECA7C8A2B7385B50051459B /* CustomTabBarController.swift */; };
 		AED319F32B7255BA004A4364 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED319F22B7255BA004A4364 /* AppDelegate.swift */; };
 		AED319F52B7255BA004A4364 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED319F42B7255BA004A4364 /* SceneDelegate.swift */; };
 		AED319F72B7255BA004A4364 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED319F62B7255BA004A4364 /* ViewController.swift */; };
@@ -26,11 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AECA7C822B733FC20051459B /* AppBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBar.swift; sourceTree = "<group>"; };
+		AE99A8062B75F32C001D6D6B /* SynchronisierungViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchronisierungViewController.swift; sourceTree = "<group>"; };
 		AECA7C842B73792B0051459B /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		AECA7C852B73792B0051459B /* TopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopViewController.xib; sourceTree = "<group>"; };
 		AECA7C882B737F4C0051459B /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
-		AECA7C8A2B7385B50051459B /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		AED319EF2B7255B9004A4364 /* FoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AED319F22B7255BA004A4364 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AED319F42B7255BA004A4364 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,9 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				AECA7C842B73792B0051459B /* TopViewController.swift */,
-				AECA7C822B733FC20051459B /* AppBar.swift */,
 				AECA7C882B737F4C0051459B /* Utility.swift */,
-				AECA7C8A2B7385B50051459B /* CustomTabBarController.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -86,6 +82,7 @@
 				AED31A0A2B725B3E004A4364 /* QRCodeTabBarViewController.swift */,
 				AED31A0C2B725B78004A4364 /* ListTabBarViewController.swift */,
 				AED31A0E2B725B99004A4364 /* SettingTabBarViewController.swift */,
+				AE99A8062B75F32C001D6D6B /* SynchronisierungViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -195,14 +192,13 @@
 			files = (
 				AED319F72B7255BA004A4364 /* ViewController.swift in Sources */,
 				AED31A092B725B23004A4364 /* UserTabBarViewController.swift in Sources */,
-				AECA7C8B2B7385B50051459B /* CustomTabBarController.swift in Sources */,
-				AECA7C832B733FC20051459B /* AppBar.swift in Sources */,
 				AECA7C892B737F4C0051459B /* Utility.swift in Sources */,
 				AED31A0B2B725B3E004A4364 /* QRCodeTabBarViewController.swift in Sources */,
 				AECA7C862B73792B0051459B /* TopViewController.swift in Sources */,
 				AED31A0D2B725B78004A4364 /* ListTabBarViewController.swift in Sources */,
 				AED319F32B7255BA004A4364 /* AppDelegate.swift in Sources */,
 				AED319F52B7255BA004A4364 /* SceneDelegate.swift in Sources */,
+				AE99A8072B75F32C001D6D6B /* SynchronisierungViewController.swift in Sources */,
 				AED31A072B725B0E004A4364 /* HomeTabBarViewController.swift in Sources */,
 				AED31A0F2B725B99004A4364 /* SettingTabBarViewController.swift in Sources */,
 			);
