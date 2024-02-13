@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE34F8CE2B7A3D10000FA986 /* MyHogastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE34F8CD2B7A3D10000FA986 /* MyHogastViewController.swift */; };
 		AE99A8072B75F32C001D6D6B /* SynchronisierungViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE99A8062B75F32C001D6D6B /* SynchronisierungViewController.swift */; };
 		AECA7C862B73792B0051459B /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECA7C842B73792B0051459B /* TopViewController.swift */; };
 		AECA7C872B73792B0051459B /* TopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AECA7C852B73792B0051459B /* TopViewController.xib */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE34F8CD2B7A3D10000FA986 /* MyHogastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHogastViewController.swift; sourceTree = "<group>"; };
 		AE99A8062B75F32C001D6D6B /* SynchronisierungViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchronisierungViewController.swift; sourceTree = "<group>"; };
 		AECA7C842B73792B0051459B /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		AECA7C852B73792B0051459B /* TopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopViewController.xib; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				AED319F62B7255BA004A4364 /* ViewController.swift */,
 				AED319FB2B7255BD004A4364 /* Assets.xcassets */,
 				AED31A002B7255BD004A4364 /* Info.plist */,
+				AE34F8CD2B7A3D10000FA986 /* MyHogastViewController.swift */,
 			);
 			path = FoodApp;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				AED319F52B7255BA004A4364 /* SceneDelegate.swift in Sources */,
 				AE99A8072B75F32C001D6D6B /* SynchronisierungViewController.swift in Sources */,
 				AED31A072B725B0E004A4364 /* HomeTabBarViewController.swift in Sources */,
+				AE34F8CE2B7A3D10000FA986 /* MyHogastViewController.swift in Sources */,
 				AED31A0F2B725B99004A4364 /* SettingTabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

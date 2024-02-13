@@ -10,51 +10,62 @@ import UIKit
 
 class QRCodeTabBarViewController : UITabBarController, UITabBarControllerDelegate{
     
-    required init(coder aDecoder: NSCoder) {
-         super.init(coder: aDecoder)!
-     }
+//    required init(coder aDecoder: NSCoder) {
+//         super.init(coder: aDecoder)!
+//     }
     
-//    var tabBarItem : UITabBarItem?
+    let QRButton = UIButton(type: .system)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupQRButton()
+       setupQRButton()
     }
-    // TabBarButton – Setup Middle Button
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        print("viewDidLayoutSubviews----- \(view.bounds.width)")
+       // setupQRButton()
+       
+       
+    }
         func setupQRButton() {
+            view.layoutIfNeeded()
+//            let buttonHeight: CGFloat = 50
+//            
+//            // Calculate the center of the tab bar
+//                   let tabBarCenter = CGPoint(x: tabBar.frame.size.width / 2, y: tabBar.frame.size.height / 2)
+//
+//                   // Set the frame for the button to position it at the center of the tab bar
+//                   let buttonSize = CGSize(width: 80, height: 80)
+//            QRButton.frame = CGRect(origin: CGPoint(x: tabBarCenter.x - buttonSize.width / 2, y: tabBarCenter.y - buttonSize.height / 2), size: buttonSize)
+//
+//                   // Make the button rounded
+//            QRButton.layer.cornerRadius = buttonSize.height / 2
             
-            let QRButton = UIButton(frame: CGRect(x: 0, y: 0, width: 80, height: 80))
             
-            var QRButtonFrame = QRButton.frame
-            QRButtonFrame.origin.y = (view.bounds.height - 30) - (QRButtonFrame.height )
-            QRButtonFrame.origin.x = view.bounds.width/2 - QRButtonFrame.size.width/2
-            QRButton.frame = QRButtonFrame
             
+            QRButton.frame = CGRect.init(x: view.bounds.width/2.5, y: tabBar.frame.minY , width: 80, height: 80)
+            QRButton.layer.cornerRadius = 40
+//            
+//            
             QRButton.setImage(UIImage(systemName: "qrcode"), for: .normal)
             QRButton.imageView?.tintColor = UIColor.white
             QRButton.backgroundColor = UIColor.black
             QRButton.layer.borderColor = UIColor.white.cgColor
             QRButton.layer.borderWidth = 0.5
-            QRButton.layer.cornerRadius = QRButtonFrame.height/2
-            
-            self.tabBarItem?.imageInsets = UIEdgeInsets(top: 6, left: 0, bottom: -6, right: 0)
-            self.tabBarItem?.title = nil
-            view.addSubview(QRButton)
-            
-            
            
+            
+            
+            view.addSubview(QRButton)
+          //  view.bringSubviewToFront(QRButton)
+            view.layoutIfNeeded()
             QRButton.addTarget(self, action: #selector(menuButtonAction(sender:)), for: .touchUpInside)
             
-            view.layoutIfNeeded()
+           
         }
         
-        // Menu Button Touch Action
         @objc func menuButtonAction(sender: UIButton) {
             self.selectedIndex = 2   //to select the middle tab. use "1" if you have only 3 tabs.
             print("MenuButton")
         }
-    
 }
 
-//extension QRCodeTabBarViewController: UITabBar{
-//    
-//}
